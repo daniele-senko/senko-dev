@@ -3,22 +3,22 @@ import { Link } from 'react-router-dom';
 
 export const Navbar = () => {
     return (
-    <nav className="flex justify-end bg-coldpurple-500">
-        <ul>
+    <nav>
+        <ul className="flex h-[120px] items-center justify-end bg-coldpurple-500 text-white font-extrabold space-x-32 p-16 right-10 uppercase">
             <li>
-             <Link to="/">Home</Link>
+                Home
             </li>
             <li>
-             <Link to="/sobre">Sobre</Link>
+                Sobre
             </li>
             <li>
-             <Link to="/skills">Skills</Link>
+                Skills
             </li>
             <li>
-             <Link to="/projetos">Projetos</Link>
+             Projetos
             </li>
             <li>
-             <Link to="/footer">Contato</Link>
+                Contato
             </li>
         </ul>
     </nav>
