@@ -1,4 +1,4 @@
-const AboutMe = () => {
+export const AboutMe = () => {
   return (
     <div>
       <h1>About Me</h1>
